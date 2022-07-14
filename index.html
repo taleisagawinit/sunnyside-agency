@@ -3,13 +3,126 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌈</title>
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1>helloooo ✨🌈</h1>
+    <header class="header">
+        About
+        Services
+        Projects
+        Contact
+    </header>
+    <main class="main">
+        <section class="hero__wrapper">
+            <div class="hero__header">
+                <h1 class="hero__title">We are creatives</h1>
+                <div class="hero__icon-wrapper">
+                    <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M18 3v100M3 95.484l15 15 15-15" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="hero__image-wrapper">
+                <img src="./images/mobile/image-header.jpg" alt="Hero image" class="hero__image">
+            </div>
+        </section>
+        <section class="main-content">
+            <div class="transform__wrapper">
+                <div class="transform__image-wrapper">
+                    <img src="./images/mobile/image-transform.jpg" alt="Transform image" class="transform__image">
+                </div>
+                <div class="transform__content">
+                    <h2 class="transform__title">Transform your brand</h2>
+                    <p class="transform__description">
+                        We are a full-service creative agency specializing in helping brands grow fast. Engage your
+                        clients through compelling visuals that do most of the marketing for you.
+                    </p>
+                    <a href="" class="transform__cta">Learn more</a>
+                </div>
+            </div>
+            <div class="stand-out__wrapper">
+                <div class="stand-out__image-wrapper">
+                    <img src="./images/mobile/image-stand-out.jpg" alt="Stand out image" class="stand-out__image">
+                </div>
+                <div class="stand-out__content">
+                    <h2 class="stand-out__title">Stand out to the right audience</h2>
+                    <p class="stand-out__description">
+                        Using a collaborative formula of designers, researchers, photographers, videographers, and
+                        copywriters,
+                        we’ll build
+                        and extend your brand in digital places.
+                    </p>
+                    <a href="" class="stand-out__cta">Learn more</a>
+                </div>
+            </div>
+            <div class="graphic-photography__wrapper">
+                Graphic design
+                Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+                potential
+                clients’ attention.
+
+                Photography
+                Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                image.
+            </div>
+            <div class="testimonials__wrapper">
+                Client testimonials
+
+                We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+                always hit.
+                Emily R.
+                Marketing Director
+
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+                enjoyable
+                experience.
+                Thomas S.
+                Chief Operating Officer
+
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                Jennie F.
+                Business Owner
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        About
+        Services
+        Projects
+        Contact
+    </footer>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded with ♥️ by <a href="#">Talei Pono</a>.
+    </div>
 </body>
 
 </html>
