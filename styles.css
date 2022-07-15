@@ -4,7 +4,10 @@
     --white: #ffffff;
     --white-2: #fffcf9;
     --gray: hsl(232, 10%, 55%);
+    --gray-2: hsl(210, 4%, 67%);
     --blue: hsl(212, 27%, 19%);
+    --blue-2: hsl(167, 40%, 24%);
+    --blue-3: hsl(198, 62%, 26%);
     --yellow: hsl(51, 100%, 49%);
     --red: hsl(7, 99%, 70%);
     /* FONT VARS */
@@ -15,9 +18,25 @@
 }
 
 /* NORMALIZE STYLES */
-html {box-sizing:border-box; overflow-x: hidden; scroll-behavior: smooth;}
-*, *::before, *::after {box-sizing: border-box;}
-body {margin: 0; font-family: 'Barlow', sans-serif; font-size: 1rem; overflow-x: hidden; background-color: var(--white-2);}
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+    background-color: var(--white-2);
+}
 
 /* HERO SECTION - MOBILE */
 .hero__wrapper {
@@ -69,6 +88,7 @@ body {margin: 0; font-family: 'Barlow', sans-serif; font-size: 1rem; overflow-x:
     font-size: 1.875rem;
     width: 75%;
     color: var(--blue);
+    font-weight: 900;
 }
 
 .transform__description {
@@ -122,6 +142,7 @@ body {margin: 0; font-family: 'Barlow', sans-serif; font-size: 1rem; overflow-x:
     font-size: 1.875rem;
     width: 75%;
     color: var(--blue);
+    font-weight: 900;
 }
 
 .stand-out__description {
@@ -156,3 +177,131 @@ body {margin: 0; font-family: 'Barlow', sans-serif; font-size: 1rem; overflow-x:
 }
 
 /* GRAPHIC & PHOTOGRAPHY SECTION - MOBILE */
+
+/***** GRAPHIC SECTION - MOBILE *****/
+.graphic__wrapper {
+    position: relative;
+}
+
+.graphic__image {
+    max-width: 100%;
+}
+
+.graphic__image-wrapper {
+    display: flex;
+}
+
+.graphic__content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 50px;
+}
+
+.graphic__title {
+    font-family: var(--secondary);
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    color: var(--blue-2);
+    font-weight: 900;
+}
+
+.graphic__description {
+    line-height: 1.7;
+    color: var(--blue-2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/***** PHOTOGRAPHY SECTION - MOBILE *****/
+.photography__wrapper {
+    position: relative;
+}
+
+.photography__image {
+    max-width: 100%;
+}
+
+.photography__image-wrapper {
+    display: flex;
+}
+
+.photography__content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 50px;
+}
+
+.photography__title {
+    font-family: var(--secondary);
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    color: var(--blue-3);
+    font-weight: 900;
+}
+
+.photography__description {
+    line-height: 1.7;
+    color: var(--blue-3);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* TESTIMONIALS SECTION - MOBILE */
+.testimonials__wrapper {
+    padding: 50px 25px;
+}
+
+.testimonials__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--secondary);
+    color: var(--gray-2);
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.testimonials__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.testimonials__block:first-of-type {
+    padding-top: 45px;
+}
+
+.testimonials__image-wrapper {
+    width: 75px;
+    display: flex;
+}
+
+.testimonials__image {
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.testimonials__quote {
+    line-height: 1.7;
+    font-size: 1.125rem;
+    color: var(--blue);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials__author-title {
+    font-family: var(--secondary);
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.testimonials__author-subtitle {
+    color: var(--gray-2);
+    margin-top: 10px;
+    margin-bottom: 0;
+}

@@ -2,127 +2,173 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <header class="header">
-        About
-        Services
-        Projects
-        Contact
-    </header>
-    <main class="main">
-        <section class="hero__wrapper">
-            <div class="hero__header">
-                <h1 class="hero__title">We are creatives</h1>
-                <div class="hero__icon-wrapper">
-                    <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
-                        <g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M18 3v100M3 95.484l15 15 15-15" />
-                        </g>
-                    </svg>
-                </div>
+  <header class="header">About Services Projects Contact</header>
+  <main class="main">
+    <section class="hero__wrapper">
+      <div class="hero__header">
+        <h1 class="hero__title">We are creatives</h1>
+        <div class="hero__icon-wrapper">
+          <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M18 3v100M3 95.484l15 15 15-15" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="hero__image-wrapper">
+        <img src="./images/mobile/image-header.jpg" alt="Hero image" class="hero__image" />
+      </div>
+    </section>
+    <section class="main-content">
+      <div class="transform__wrapper">
+        <div class="transform__image-wrapper">
+          <img src="./images/mobile/image-transform.jpg" alt="Transform image" class="transform__image" />
+        </div>
+        <div class="transform__content">
+          <h2 class="transform__title">Transform your brand</h2>
+          <p class="transform__description">
+            We are a full-service creative agency specializing in helping
+            brands grow fast. Engage your clients through compelling visuals
+            that do most of the marketing for you.
+          </p>
+          <a href="" class="transform__cta">Learn more</a>
+        </div>
+      </div>
+      <div class="stand-out__wrapper">
+        <div class="stand-out__image-wrapper">
+          <img src="./images/mobile/image-stand-out.jpg" alt="Stand out image" class="stand-out__image" />
+        </div>
+        <div class="stand-out__content">
+          <h2 class="stand-out__title">Stand out to the right audience</h2>
+          <p class="stand-out__description">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="" class="stand-out__cta">Learn more</a>
+        </div>
+      </div>
+      <div class="graphic-photography__wrapper">
+        <div class="graphic__wrapper">
+          <div class="graphic__image-wrapper">
+            <img src="./images/mobile/image-graphic-design.jpg" alt="Graphic design image" class="graphic__image">
+          </div>
+          <div class="graphic__content">
+            <h2 class="graphic__title">Graphic design</h2>
+            <p class="graphic__description">Great design makes you memorable. We deliver artwork
+              that underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+        </div>
+        <div class="photography__wrapper">
+          <div class="photography__image-wrapper">
+            <img src="./images/mobile/image-photography.jpg" alt="Photography image" class="photography__image">
+          </div>
+          <div class="photography__content">
+            <h2 class="photography__title">Photography</h2>
+            <p class="photography__description">Increase your credibility by getting the most stunning, high-quality
+              photos that improve your business image.</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials__wrapper">
+        <h3 class="testimonials__title">Client testimonials</h3>
+        <div class="testimonials__blocks">
+          <div class="testimonials__block">
+            <div class="testimonials__image-wrapper">
+              <img src="./images/image-emily.jpg" alt="Testimonial 1 image" class="testimonials__image">
             </div>
-            <div class="hero__image-wrapper">
-                <img src="./images/mobile/image-header.jpg" alt="Hero image" class="hero__image">
+            <p class="testimonials__quote">We put our trust in Sunnyside and they delivered,
+              making sure our needs were met and deadlines were always hit.</p>
+            <div class="testimonials__author">
+              <h4 class="testimonials__author-title">Emily R.</h4>
+              <h5 class="testimonials__author-subtitle">Marketing Director</h5>
             </div>
-        </section>
-        <section class="main-content">
-            <div class="transform__wrapper">
-                <div class="transform__image-wrapper">
-                    <img src="./images/mobile/image-transform.jpg" alt="Transform image" class="transform__image">
-                </div>
-                <div class="transform__content">
-                    <h2 class="transform__title">Transform your brand</h2>
-                    <p class="transform__description">
-                        We are a full-service creative agency specializing in helping brands grow fast. Engage your
-                        clients through compelling visuals that do most of the marketing for you.
-                    </p>
-                    <a href="" class="transform__cta">Learn more</a>
-                </div>
+          </div>
+          <div class="testimonials__block">
+            <div class="testimonials__image-wrapper">
+              <img src="./images/image-thomas.jpg" alt="Testimonial 2 image" class="testimonials__image">
             </div>
-            <div class="stand-out__wrapper">
-                <div class="stand-out__image-wrapper">
-                    <img src="./images/mobile/image-stand-out.jpg" alt="Stand out image" class="stand-out__image">
-                </div>
-                <div class="stand-out__content">
-                    <h2 class="stand-out__title">Stand out to the right audience</h2>
-                    <p class="stand-out__description">
-                        Using a collaborative formula of designers, researchers, photographers, videographers, and
-                        copywriters,
-                        we’ll build
-                        and extend your brand in digital places.
-                    </p>
-                    <a href="" class="stand-out__cta">Learn more</a>
-                </div>
+            <p class="testimonials__quote">Sunnyside’s enthusiasm coupled with their keen
+              interest in our brand’s success made it a satisfying and enjoyable
+              experience.</p>
+            <div class="testimonials__author">
+              <h4 class="testimonials__author-title">Thomas S.</h4>
+              <h5 class="testimonials__author-subtitle">Chief Operating Officer</h5>
             </div>
-            <div class="graphic-photography__wrapper">
-                Graphic design
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures
-                potential
-                clients’ attention.
+          </div>
+          <div class="testimonials__block">
+            <div class="testimonials__image-wrapper">
+              <img src="./images/image-jennie.jpg" alt="Testimonial 3 image" class="testimonials__image">
+            </div>
+            <p class="testimonials__quote">Incredible end result! Our sales increased over 400% when we worked with
+              Sunnyside. Highly recommended!</p>
+            <div class="testimonials__author">
+              <h4 class="testimonials__author-title">Jennie F.</h4>
+              <h5 class="testimonials__author-subtitle">Business Owner</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer__image-grid">
+      <div class="footer__image-wrapper">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="Footer image 1" class="footer__image">
+      </div>
+      <div class="footer__image-wrapper">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="Footer image 2" class="footer__image">
+      </div>
+      <div class="footer__image-wrapper">
+        <img src=./images/mobile/image-gallery-cone.jpg" alt="Footer image 3" class="footer__image">
+      </div>
+      <div class="footer__image-wrapper">
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="Footer image 4" class="footer__image">
+      </div>
+    </section>
+    <section class="footer__content">
+      <div class="footer__logo"></div>
+      <div class="footer__navigation">
+        About Services Projects Contact
+      </div>
+      <div class="footer__icons"></div>
+    </section>
+  </footer>
 
-                Photography
-                Increase your credibility by getting the most stunning, high-quality photos that improve your business
-                image.
-            </div>
-            <div class="testimonials__wrapper">
-                Client testimonials
-
-                We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
-                always hit.
-                Emily R.
-                Marketing Director
-
-                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
-                enjoyable
-                experience.
-                Thomas S.
-                Chief Operating Officer
-
-                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-                Jennie F.
-                Business Owner
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        About
-        Services
-        Projects
-        Contact
-    </footer>
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded with ♥️ by <a href="#">Talei Pono</a>.
-    </div>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded with ♥️ by <a
+      href="#">Talei Pono</a>.
+  </div>
 </body>
 
 </html>
